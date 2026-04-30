@@ -1,0 +1,17 @@
+
+{% comment %} 9.
+ write a script to meet following requirements:
+1. Create index.html file page which contains
+form(username,password,login button). and open it on localhost.
+2. After clicking submit button, it should jump on “savesession” page. Store
+username and password in session.
+3. After saving session, redirect to “fetchsession” page and read value. Put a
+LOGOUT link here.
+4. Jump on delete session page after clicking LOGOUT link.
+5. Destroy the session on this page and redirect to index.html page {% endcomment %}
+
+<form method="get" action="/savesession">
+    User name: <input type="text" name="Uname"><br><br>
+    Password: <input type="password" name="Password"><br><br>
+    <button type="login" value="login"> Login </button>
+</form>

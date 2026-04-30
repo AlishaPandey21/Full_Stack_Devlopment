@@ -1,0 +1,26 @@
+<!-- 5. Build an Express.js app with:
+1. An HTML form with username, password, and submit button. Use
+POST method.
+2. On visiting /, show the form.
+3. On submitting to /login:
+a. If username is "admin", display: "Welcome admin"
+b. Else, show: "Please login with admin name" and a link back to the
+form. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <form>
+    <form action="/login" method="post">
+        Username:<input type="text" name="uname">
+        Password:<input type="password" name="password">
+              <input type="submit" value="submit">
+    </form>
+  
+</body>
+</html>
